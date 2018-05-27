@@ -1,0 +1,138 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1527424179830" stop="1527424179879">
+  <name>scripts.test001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1527424179830" status="passed" stop="1527424179832">
+      <name>Test_001.test_abc[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3924-MainThread"/>
+        <label name="host" value="dongyuedeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527424179832" status="passed" stop="1527424179832">
+          <name>测试步骤001</name>
+          <title>测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527424179834" status="failed" stop="1527424179872">
+      <name>Test_001.test_abc[2]</name>
+      <failure>
+        <message>AssertionError: assert 2 != 2</message>
+        <stack-trace>self = &lt;scripts.test001.Test_001 object at 0x1046db240&gt;, a = 2
+
+    @allure.step(title="测试步骤001")
+    @pytest.mark.parametrize("a",[1,2,3])
+    def test_abc(self,a):
+&gt;       assert a != 2
+E       assert 2 != 2
+
+scripts/test001.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3924-MainThread"/>
+        <label name="host" value="dongyuedeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527424179835" status="failed" stop="1527424179835">
+          <name>测试步骤001</name>
+          <title>测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527424179873" status="passed" stop="1527424179874">
+      <name>Test_001.test_abc[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3924-MainThread"/>
+        <label name="host" value="dongyuedeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527424179874" status="passed" stop="1527424179874">
+          <name>测试步骤001</name>
+          <title>测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527424179875" status="passed" stop="1527424179876">
+      <name>Test_001.test_bcd[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3924-MainThread"/>
+        <label name="host" value="dongyuedeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527424179875" status="passed" stop="1527424179876">
+          <name>测试步骤002</name>
+          <title>测试步骤002</title>
+          <attachments>
+            <attachment source="0d6ceb98-7a83-45c0-9551-fe0d4b64ba68-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527424179877" status="passed" stop="1527424179878">
+      <name>Test_001.test_bcd[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3924-MainThread"/>
+        <label name="host" value="dongyuedeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527424179877" status="passed" stop="1527424179877">
+          <name>测试步骤002</name>
+          <title>测试步骤002</title>
+          <attachments>
+            <attachment source="6077eafc-955c-4df2-9d33-8164434db8da-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527424179878" status="passed" stop="1527424179879">
+      <name>Test_001.test_bcd[5]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3924-MainThread"/>
+        <label name="host" value="dongyuedeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527424179879" status="passed" stop="1527424179879">
+          <name>测试步骤002</name>
+          <title>测试步骤002</title>
+          <attachments>
+            <attachment source="5752fb07-7df1-45a5-914b-e5e7cb3eabc3-attachment.txt" title="描述" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
